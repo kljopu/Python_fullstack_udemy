@@ -1,0 +1,28 @@
+.firstDiv{
+    color: blue;
+}
+
+.secondDiv{
+    color: red;
+}
+
+#singledout{
+    color: green;
+    text-decoration: line-through;
+}
+
+/* *{ 모든것을 오보랩 한다
+    color: black;
+} */
+
+h3 + ul{
+    border: 4px dotted purple;
+}
+li a{
+    color: sandybrown;
+}
+
+li a[href="https://www.naver.com"]{
+    color: blue;
+    border: 5px solid orange;
+}
