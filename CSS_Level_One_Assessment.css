@@ -48,3 +48,11 @@
 .p_bottom{
     background-color: aqua;
 }
+/* 링크 데코 */
+a{
+    color:#a2b8db ;
+}
+/* 방문한 링크표시 데코 */
+a:visited{
+    color:#45f72a;
+}
