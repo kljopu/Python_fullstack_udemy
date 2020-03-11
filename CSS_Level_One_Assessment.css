@@ -1,0 +1,50 @@
+.toptxt{
+    border: 2px solid gray;
+} 
+/* 이거 아직 안됨 */
+
+#heading{
+    border: 0.5px solid black;
+}
+
+.top{
+    background-color: beige;
+}
+
+#heading2{
+    color: yellowgreen;
+}
+
+.first{
+    color: yellowgreen;
+    text-decoration: overline;
+}
+
+#heading3{
+    color: yellowgreen;
+}
+
+#Email{
+    border: 1px solid yellowgreen;
+}
+
+#loginbotton{
+    border: 1px solid yellowgreen;
+}
+
+#Password{
+    border: 1px solid yellowgreen;
+}
+/* Or */
+/* input{
+    border: 2px solid yellowgreen;
+} */
+
+.ul_bottom{
+    border: 2px dotted yellowgreen;
+    background-color: beige;
+}
+
+.p_bottom{
+    background-color: aqua;
+}

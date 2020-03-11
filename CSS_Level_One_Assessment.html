@@ -7,19 +7,31 @@
     <link rel="stylesheet" href="CSS_Level_One_Assessment.css">
 </head>
 <body>
-    <h1>Welcome to Fee Blog!</h1>
+    <h1 id="heading">Welcome to Fee Blog!</h1>
 
     <p class="top">Thanks so much for visiting the site!</p>
     
-    <h2>What is this site for?</h2>
-
+    <h2 id = "heading2">What is this site for?</h2>
+    <p>This site can fo thee things: </p>
     <ol>
         <li class="first">Take in text input</li>
         <li class="middle">Take in Log In Information</li>
         <li class="last"><a href="https://google.com">Take you to google</a></li>
     </ol>
-    <input id = "textbox" type="text">
-
-    <p>asadfasdfsadf</p>
+    <!-- <input id = "textbox" type="textarea"> -->
+    <div class="topdiv">
+        <textarea id="toptxt" cols="30" rows="10"></textarea> <!--textarea는 default가 사이즈 변경 가능-->
+    </div>
+    
+    <h2 id ="heading3">Please log in to save your blog post</h2>
+    <label for="Email">Email: </label>
+    <input type="email" id="Email">
+    <label for="Password">Password: </label>
+    <input type="password" id="Password">
+    <input type="submit" value="Log in" id="loginbotton">
+    <div class="ul_bottom">
+        <p class="p_bottom">Questions or Comments? Send us feedback here: </p>
+        <textarea id="bottomtxt" cols="50" rows="15"></textarea>
+    </div>
 </body>
 </html>
