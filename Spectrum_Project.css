@@ -1,7 +1,33 @@
 *{
     font-family: 'Nanum Pen Script', cursive;
 }
+h1{
+    text-align: center;
+}
+table{
+    width: 600px;
+    height: 200px;
+    border-spacing: 8px;
+    margin: auto;
+    
+}
 
 #first{
-    color: #011627;
+    background-color: #011627;
+}
+
+#second{
+    background-color: rgb(133, 110, 216);
+}
+
+#third{
+    background-color: #2EC4B6;
+}
+
+#fourth{
+    background-color: #E71D36;
+}
+
+#fifth{
+    background-color: #FF9F1C;
 }
